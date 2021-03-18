@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use App\category;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -22,7 +23,13 @@ class AppServiceProvider extends ServiceProvider
      * @return void
      */
     public function boot()
+
     {
-        //
+        view()->composer('admin.index',function($view){
+            $category=category::all();
+            $view->with('category',$category);
+        });
+       
+
     }
 }

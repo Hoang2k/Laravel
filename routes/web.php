@@ -1,4 +1,5 @@
 <?php
+use App\Http\Controllers\AdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,3 +15,16 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+//////////admin
+Route::get('/admin/home',[AdminController::class,'index']);
+Route::get('/admin/listProduct',[AdminController::class,'index'])->name('admin.list.product');
+Route::post('/addProduct',[AdminController::class,'addProduct'])->name('addProduct');
+
+Route::get('/products/{id}',[AdminController::class,'getProductById']);
+Route::get('/delete/product/{id}',[AdminController::class,'deleteProduct'])->name('delete.product');
+
+
+
+
+Route::get('/admin-search-product',[AdminController::class,'getSearchProduct'])->name('admin.search.product');
