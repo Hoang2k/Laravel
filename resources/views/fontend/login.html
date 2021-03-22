@@ -6,10 +6,9 @@
 	<link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css" >
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-    <script src="js/script.js"></script>
     <title>Document</title>
 </head>
-<body onload="setup()">
+<body>
     <div class="navbar navbar-expand-md">
         <div class="container-fluid ">
             <ul class="navbar-nav">
@@ -18,17 +17,17 @@
                 <li class="nav-item menu">
                     <a class="nav-link menu" href="#">SẮT THÉP XÂY DỰNG</a>
                     <ul class="sub-menu">
-                        <li><a  href="#">SẮT THÉP CÂY</a></li>
-                        <li><a  href="#">SẮT THÉP ỐNG</a></li>
+                        <li><a  href="product.html">SẮT THÉP CÂY</a></li>
+                        <li><a  href="product.html">SẮT THÉP ỐNG</a></li>
                     </ul>
                 </li>
                 <li class="nav-item menu"><a class="nav-link menu" href="#">VẬT LIỆU XÂY DỰNG</a>
                     <ul class="sub-menu">
-                        <li><a  href="#">CÁT ĐÁ XÂY DỰNG</a></li>
-                        <li><a  href="#">GẠCH XÂY DỰNG</a></li>
+                        <li><a  href="product.html">CÁT ĐÁ XÂY DỰNG</a></li>
+                        <li><a  href="product.html">GẠCH XÂY DỰNG</a></li>
                     </ul>
                 </li>
-                <li class="nav-item menu"><a class="nav-link" href="login.html">TÀI KHOẢN</a></li>
+                <li class="nav-item menu"><a class="nav-link" href="#">TÀI KHOẢN</a></li>
                 <li class="nav-item ">
                     <form>
                         <input class="input-search" type="text" placeholder="Tìm Kiếm">
@@ -40,27 +39,30 @@
                 </li>
             </ul>
         </div>
-    </div><!--end menu-->
-    <div class="detail-content"><!--content-->
-        <div class="container-fluid row">
+    </div>
+    <div class="login-content"><!--content-->
+        <div><h4 class="login-title">Đăng nhập / Đăng kí</h4></div>
+        <div class="row">
             <div class="col-lg-6">
-                <img src="img/da-18-600x400.jpg">
-            </div>
-            <div class="col-lg-6 detail">
-                <h4>Gạch không nung</h4>
-                <p>140.000đ/bao</p>
-                <p>Số lượng :</p>
-                <form id="form-number">
-                    <input class="input-change" type="button" value="-">
-                    <input id="input-value" type="button" value="1">
-                    <input class="input-change" type="button" value="+">
+                <p>Đăng nhập</p>
+                <form id="form-dn">
+                    <input type="email"placeholder="Email của bạn" >
+                    <input type="password" placeholder="Nhập mật khẩu của bạn">
+                    <button>Đăng nhập</button>
                 </form>
-                <div class="btn-buy"><button>Mua Ngay</button></div>
+            </div>
+            <div class="col-lg-6">
+                <p>Đăng kí thành viên mới</p>
+                <form id="form-dk">
+                    <input type="text" placeholder="Họ và tên">
+                    <input type="email"placeholder="Email của bạn" >
+                    <input type="password" placeholder="Nhập mật khẩu của bạn">
+                    <button>Đăng kí</button>
+                </form>
             </div>
         </div>
-        <b>Mô tả : </b><span>Độ bền chắc chắn</span>
 
-    </div> 
+    </div> <!--end content-->
     <div class="footer">
         <div class="container-fluid footer-top">
             <p id="fist">Gọi ngay để tư vấn</p>

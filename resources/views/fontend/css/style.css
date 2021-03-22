@@ -17,10 +17,7 @@ body .navbar{background-color: rgb(192,80,77);}
 .navbar li:hover .sub-menu{display: block;}
 
 .index-top{margin-top: 40px;}
-.index-danhmuc .danhmuc-top{background-color: rgb(192,80,77);height: 60px;}
-.danhmuc-top .danhmuc-title{color: rgb(255, 255, 255);font-size: 16px;text-align: center;padding-top: 15px;}
-.index-danhmuc .danhmuc-item{border: 5px solid rgb(243,243,243);}
-.index-danhmuc .danhmuc-item a{color:rgb(0,0,0);list-style: none;display: block;font-size: 16px;margin-bottom: 100px;}
+.carousel img{width: 100%;padding: 0 20px;}
 
 .index-banner img{width: 100%;height: 100%;}
 
@@ -32,6 +29,7 @@ body .navbar{background-color: rgb(192,80,77);}
 .index-content .col-lg-3 img{width: 261px;height:261px;margin-left: 50px;}
 .index-content .col-lg-3 .index-tensp{font-size: 16px;text-align: center;font-weight: bold;margin-top: 10px;color: rgb(0,0,0);}
 .index-content .col-lg-3 .gia-sp{color: rgb(255, 0, 0);margin-top: 10px;text-align: center;font-size: 16px;font-weight: bold;}
+.gia-cu{margin-top: 10px;text-align: center;font-size: 16px;font-weight: bold;text-decoration-line:line-through;}
 
 .footer .footer-top{background-color: rgb(228,108,10);height: 250px;margin-bottom: 20px;margin-top: 70px;}
 .footer .footer-top p{padding-top: 40px;color: rgb(255, 255, 255);margin-left: 70px;}
@@ -58,3 +56,15 @@ body .navbar{background-color: rgb(192,80,77);}
 .detail-content .row .detail form input{height: 40px;width: 40px; border: 2px solid rgb(0,0,0);margin-top: 15px;}
 .detail-content .row .detail .btn-buy button{width: 150px;height: 40px; margin-top: 40px;background-color: rgb(228,108,10);color: rgb(255, 255, 255);border: 0px;}
 .detail-content b{margin-left: 50px;}
+
+
+/*login*/
+
+.login-content .login-title{text-align: center;margin-top: 50px;}
+.login-content .col-lg-6 p{margin-left: 60px;padding-left: 20px;font-weight:bolder ;margin-top: 40px;}
+.login-content form{padding-left: 20px;margin-left: 60px;}
+.login-content form button{width: 100px;background-color: rgb(255,255,255);border: rgb(0,0,0) 3px solid;}
+.login-content form input{width: 80%;display: block;margin-bottom: 20px;border: rgb(0,0,0) 3px solid;}
+
+.link{margin-left: 50px;margin-top: 20px;}
+.product-title{margin-top: 40px;margin-left: 50px;font-weight: bold;font-size: 20px;margin-bottom: 30px;}
